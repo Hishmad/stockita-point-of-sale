@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">true</bool>
+    <bool name="isLandscape">true</bool>
+
+
+    <!-- dimen for setting screen -->
+    <dimen name="side_margin">128dp</dimen>
+
+</resources>

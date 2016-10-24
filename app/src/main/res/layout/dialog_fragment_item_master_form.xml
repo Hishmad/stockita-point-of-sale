@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * MIT License
+ *
+ * Copyright (c) 2016 Hishmad Abubakar Al-Amudi
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+ -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+
+        <!-- Display the title -->
+        <TextView
+            android:id="@+id/screen_title_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginTop="@dimen/dialog_fragment_item_master_form_32"
+            android:gravity="center"
+            android:text="@string/dialog_fragment_item_master_form_title"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <!-- Get the item number -->
+            <EditText
+                android:id="@+id/item_number_form"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dialog_fragment_item_master_form_16"
+                android:layout_marginEnd="@dimen/dialog_fragment_item_master_form_4"
+                android:layout_marginStart="@dimen/dialog_fragment_item_master_form_16"
+                android:layout_marginTop="@dimen/dialog_fragment_item_master_form_16"
+                android:layout_weight="5"
+                android:background="@color/white"
+                android:hint="@string/dialog_fragment_item_master_form_item_number_optional"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:padding="@dimen/dialog_fragment_item_master_form_16" />
+
+            <!-- Barcode reader -->
+            <ImageButton
+                android:id="@+id/barcode_scanner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dialog_fragment_item_master_form_8"
+                android:layout_marginEnd="@dimen/dialog_fragment_item_master_form_16"
+                android:layout_marginStart="@dimen/dialog_fragment_item_master_form_4"
+                android:layout_marginTop="@dimen/dialog_fragment_item_master_form_16"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:contentDescription="@string/dialog_fragment_item_master_form_barcode_scanner"
+                android:padding="@dimen/dialog_fragment_item_master_form_12"
+                android:src="@android:drawable/ic_menu_report_image" />
+
+        </LinearLayout>
+
+        <!-- Get the item desc -->
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/item_desc_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_item_master_form_8"
+            android:layout_marginEnd="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginStart="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginTop="@dimen/dialog_fragment_item_master_form_8"
+            android:background="@color/white"
+            android:hint="@string/dialog_fragment_item_master_form_item_descriptions"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:padding="@dimen/dialog_fragment_item_master_form_16" />
+
+        <!-- Get the UoM -->
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/item_unit_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_item_master_form_8"
+            android:layout_marginEnd="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginStart="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginTop="@dimen/dialog_fragment_item_master_form_8"
+            android:background="@color/white"
+            android:hint="@string/dialog_fragment_item_master_form_unit_of_measure"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:padding="@dimen/dialog_fragment_item_master_form_16" />
+
+        <!-- Get the Price -->
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/item_price_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginEnd="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginStart="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginTop="@dimen/dialog_fragment_item_master_form_8"
+            android:background="@color/white"
+            android:hint="@string/dialog_fragment_item_master_form_price"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/dialog_fragment_item_master_form_16" />
+
+        <!-- Save button here -->
+        <TextView
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginEnd="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginStart="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginTop="@dimen/dialog_fragment_item_master_form_8"
+            android:background="@drawable/ripple_accent_white"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:padding="@dimen/dialog_fragment_item_master_form_16"
+            android:text="@string/dialog_fragment_item_master_form_save"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/black" />
+
+        <!-- Cancel button here -->
+        <TextView
+            android:id="@+id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_item_master_form_32"
+            android:layout_marginEnd="@dimen/dialog_fragment_item_master_form_16"
+            android:layout_marginStart="@dimen/dialog_fragment_item_master_form_16"
+            android:background="@drawable/ripple_red_white"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:padding="@dimen/dialog_fragment_item_master_form_16"
+            android:text="@string/dialog_fragment_item_master_form_cancel"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</ScrollView>

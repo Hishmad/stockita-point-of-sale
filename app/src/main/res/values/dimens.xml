@@ -1,0 +1,112 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Margin between text and text bottom and top -->
+    <dimen name="margin_between_text_vertical">4dp</dimen>
+
+    <integer name="number_of_span_item_master">2</integer>
+    <bool name="isLandscape">false</bool>
+    <bool name="isTablet">false</bool>
+
+
+    <!-- dimen for setting screen -->
+    <dimen name="side_margin">16dp</dimen>
+
+    <!-- standard card margins -->
+    <dimen name="card_margin_top">4dp</dimen>
+    <dimen name="card_margin_bottom">4dp</dimen>
+    <dimen name="card_margin_start">4dp</dimen>
+    <dimen name="card_margin_end">4dp</dimen>
+
+    <!-- adapter view item list -->
+    <dimen name="adapter_view_item_list_root_height">232dp</dimen>
+    <dimen name="adapter_view_item_list_frame_layout_height">176dp</dimen>
+    <dimen name="adapter_view_item_list_padding_full">8dp</dimen>
+    <dimen name="adapter_view_item_list_text_size_12">12sp</dimen>
+    <dimen name="adapter_view_item_list_text_size_8">8sp</dimen>
+
+    <!-- adapter_view_item_lookup -->
+    <dimen name="adapter_view_item_lookup_root_width">400dp</dimen>
+    <dimen name="adapter_view_item_lookup_root_height">232dp</dimen>
+    <dimen name="adapter_view_item_lookup_frame_layout_height">176dp</dimen>
+    <dimen name="adapter_view_item_lookup_linear_layout_padding_8">8dp</dimen>
+    <dimen name="adapter_view_item_lookup_text_size_12">12sp</dimen>
+    <dimen name="adapter_view_item_lookup_text_size_8">8sp</dimen>
+
+    <!-- adapter_view_mini_lookup -->
+    <dimen name="adapter_view_mini_lookup_root_16">16dp</dimen>
+    <dimen name="adapter_view_mini_lookup_root_8">8dp</dimen>
+
+    <!-- adapter_view_open_sales_detail_list -->
+    <dimen name="adapter_view_open_sales_detail_list_4">4dp</dimen>
+    <dimen name="adapter_view_open_sales_detail_list_8">8dp</dimen>
+
+    <!-- adapter_view_payment -->
+    <dimen name="adapter_view_payment_4">4dp</dimen>
+    <dimen name="adapter_view_payment_8">8dp</dimen>
+    <dimen name="adapter_view_payment_16">16dp</dimen>
+
+    <!-- adapter_view_sales_detail_list -->
+    <dimen name="adapter_view_sales_detail_list_4">4dp</dimen>
+    <dimen name="adapter_view_sales_detail_list_8">8dp</dimen>
+    <dimen name="adapter_view_sales_detail_list_16">16dp</dimen>
+
+    <!-- adapter_view_sales_header_list -->
+    <dimen name="adapter_view_sales_header_list_4">4dp</dimen>
+    <dimen name="adapter_view_sales_header_list_8">8dp</dimen>
+    <dimen name="adapter_view_sales_header_list_16">16dp</dimen>
+
+    <!-- dialog_fragment_item_master_form -->
+    <dimen name="dialog_fragment_item_master_form_4">4dp</dimen>
+    <dimen name="dialog_fragment_item_master_form_8">8dp</dimen>
+    <dimen name="dialog_fragment_item_master_form_12">12dp</dimen>
+    <dimen name="dialog_fragment_item_master_form_16">16dp</dimen>
+    <dimen name="dialog_fragment_item_master_form_32">32dp</dimen>
+
+    <!-- dialog_fragment_picker_image -->
+    <dimen name="dialog_fragment_picker_image_200">200dp</dimen>
+
+    <!-- dialog_fragment_sales_checkout -->
+    <dimen name="dialog_fragment_sales_checkout_4">4dp</dimen>
+    <dimen name="dialog_fragment_sales_checkout_8">8dp</dimen>
+    <dimen name="dialog_fragment_sales_checkout_12">12dp</dimen>
+    <dimen name="dialog_fragment_sales_checkout_16">16dp</dimen>
+    <dimen name="dialog_fragment_sales_checkout_32">32dp</dimen>
+    <dimen name="dialog_fragment_sales_checkout_64">64dp</dimen>
+
+    <!-- dialog_fragment_sales_detail_form -->
+    <dimen name="dialog_fragment_sales_detail_form_4">4dp</dimen>
+    <dimen name="dialog_fragment_sales_detail_form_8">8dp</dimen>
+    <dimen name="dialog_fragment_sales_detail_form_12">12dp</dimen>
+    <dimen name="dialog_fragment_sales_detail_form_16">16dp</dimen>
+    <dimen name="dialog_fragment_sales_detail_form_32">32dp</dimen>
+    <dimen name="dialog_fragment_sales_detail_form_64">64dp</dimen>
+
+    <!-- dialog_lookup_item_master -->
+    <dimen name="dialog_lookup_item_master_16">16dp</dimen>
+    <dimen name="dialog_lookup_item_master_32">32dp</dimen>
+
+    <!-- dialog_mini_item_master -->
+    <dimen name="dialog_mini_item_master_16">16dp</dimen>
+
+    <!-- fragment_list_of_pending_sales -->
+    <dimen name="fragment_list_of_pending_sales_8">8dp</dimen>
+
+    <!-- fragment_payment -->
+    <dimen name="fragment_payment_8">8dp</dimen>
+
+    <!-- nav header -->
+    <dimen name="nav_header_56">56dp</dimen>
+
+
+
+
+
+</resources>

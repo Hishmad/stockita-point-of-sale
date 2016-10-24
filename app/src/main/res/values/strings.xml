@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Stockita Point Of Sales</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_paid_sales_detail">PaidSalesDetailActivity</string>
+
+
+    <!-- facebook permissions -->
+    <array name="facebook_permissions">
+        <item>public_profile</item>
+        <item>email</item>
+    </array>
+
+
+
+    <!-- Settings -->
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- adapter_view_item_list -->
+    <string name="adapter_view_item_list_item_desc">Item Desc</string>
+    <string name="adapter_view_item_list_price">Price</string>
+    <string name="adapter_view_item_list_popup_menu">Popup menu</string>
+
+    <!-- adapter_each_card_nested_image -->
+    <string name="adapter_each_card_nested_image">display the item images</string>
+
+    <!-- adapter_view_item_lookup -->
+    <string name="adapter_view_item_lookup_item_desc">Item Desc</string>
+    <string name="adapter_view_item_lookup_price">Price</string>
+
+    <!-- adapter_view_open_sales_detail_list -->
+    <string name="adapter_view_open_sales_detail_item_desc">Item Desc</string>
+    <string name="adapter_view_open_sales_detail_list_quantity">Quantity</string>
+    <string name="adapter_view_open_sales_detail_list_popup_menu_button">Popup menu button</string>
+    <string name="adapter_view_open_sales_detail_list_price">Price</string>
+    <string name="adapter_view_open_sales_detail_list_amount">Amount</string>
+
+    <!-- adapter_view_payment -->
+    <string name="adapter_view_payment_total_invoice_amount">Total invoice amount</string>
+    <string name="adapter_view_payment_payment_server_date_and_time">Payment Server Date and Time</string>
+    <string name="adapter_view_payment_date_and_time">Date and Time</string>
+    <string name="adapter_view_payment_credit_card_number">Credit Card Number</string>
+    <string name="adapter_view_payment_change_cash">Change Cash</string>
+    <string name="adapter_view_payment_cash_paid">Cash Paid</string>
+    <string name="adapter_view_payment_customer_name">Customer name</string>
+
+    <!-- adapter_view_sales_detail_list -->
+    <string name="adapter_view_sales_detail_list_item_desc">Item Desc</string>
+    <string name="adapter_view_sales_detail_list_popup_menu">Popup menu</string>
+    <string name="adapter_view_sales_detail_list_quantity">Quantity</string>
+    <string name="adapter_view_sales_detail_list_price">Price</string>
+    <string name="adapter_view_sales_detail_list_amount">Amount</string>
+
+    <!-- adapter_view_sales_header_list -->
+    <string name="adapter_view_sales_header_list_customer_name">Customer name</string>
+    <string name="adapter_view_sales_header_list_popup_menu">Popup menu</string>
+    <string name="adapter_view_sales_header_list_date">Date</string>
+    <string name="adapter_view_sales_header_list_invoice_amount">Invoice Amount</string>
+
+    <!-- dialog_fragment_item_master_form -->
+    <string name="dialog_fragment_item_master_form_title">Add/Edit Item Master</string>
+    <string name="dialog_fragment_item_master_form_item_number_optional">Item number (optional)</string>
+    <string name="dialog_fragment_item_master_form_barcode_scanner">Barcode scanner</string>
+    <string name="dialog_fragment_item_master_form_item_descriptions">Item Descriptions</string>
+    <string name="dialog_fragment_item_master_form_unit_of_measure">Unit of measure</string>
+    <string name="dialog_fragment_item_master_form_price">Price</string>
+    <string name="dialog_fragment_item_master_form_save">Save</string>
+    <string name="dialog_fragment_item_master_form_cancel">Cancel</string>
+    <string name="ERROR_dialog_fragment_item_master_form">You need to type an item descriptions</string>
+
+
+
+    <!-- dialog_fragment_picker_image -->
+    <string name="pick_image_from_galery">Pick image from galery</string>
+    <string name="take_a_photo">Take a photo</string>
+    <string name="take_photo_from_camera">Take photo from camera</string>
+
+    <!-- dialog_fragment_sales_checkout -->
+    <string name="dialog_fragment_sales_checkout_title">Sales checkout dialog</string>
+    <string name="dialog_fragment_sales_checkout_customer_name">Customer name</string>
+    <string name="dialog_fragment_sales_checkout_cash">Cash</string>
+    <string name="dialog_fragment_sales_checkout_number_of_items">Number of items</string>
+    <string name="dialog_fragment_sales_checkout_total_amount">Total amount</string>
+    <string name="dialog_fragment_sales_checkout_discount_amount">Discount amount</string>
+    <string name="dialog_fragment_sales_checkout_service_charge_amount">Service Charge Amount</string>
+    <string name="dialog_fragment_sales_checkout_tax_amount">Tax amount</string>
+    <string name="dialog_fragment_sales_checkout_total_invoice_amount">Total invoice amount</string>
+    <string name="dialog_fragment_sales_checkout_change">Change</string>
+    <string name="dialog_fragment_sales_checkout_pay">Pay</string>
+    <string name="dialog_fragment_sales_checkout_open_bill">Open Bill</string>
+    <string name="dialog_fragment_sales_checkout_cancel">Cancel</string>
+
+
+    <!-- dialog_fragment_sales_detail_form -->
+    <string name="dialog_sales_detail_form_title">Add/Edit Sales Detail</string>
+    <string name="dialog_sales_detail_form_item_number">Item Number</string>
+    <string name="dialog_sales_detail_form_barcode_scanner">Barcode scanner</string>
+    <string name="dialog_sales_detail_form_description">Description</string>
+    <string name="dialog_sales_detail_form_unit_of_measure">Unit of measure</string>
+    <string name="dialog_sales_detail_form_price">Price</string>
+    <string name="dialog_sales_detail_form_qty">Qty</string>
+    <string name="dialog_sales_detail_form_discount">discount %</string>
+    <string name="dialog_sales_detail_form_save">Save</string>
+    <string name="dialog_sales_detail_form_cancel">Cancel</string>
+
+    <!-- dialog_lookup_item_master -->
+    <string name="dialog_lookup_item_master_list">Item Master List</string>
+
+    <!-- dialog_mini_item_master -->
+    <string name="dialog_mini_item_master_list">Item Master List</string>
+
+    <!-- nav_header_main -->
+    <string name="nav_header_user_photo">User photo</string>
+    <string name="nav_header_android_studio">Android Studio</string>
+    <string name="nav_header_android_studio_android_com">android.studio@android.com</string>
+
+
+
+
+</resources>

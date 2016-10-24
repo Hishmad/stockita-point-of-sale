@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * MIT License
+ *
+ * Copyright (c) 2016 Hishmad Abubakar Al-Amudi
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sales_detail_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:paddingBottom="@dimen/adapter_view_open_sales_detail_list_4"
+            android:paddingEnd="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingStart="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingTop="@dimen/adapter_view_open_sales_detail_list_8"
+            android:text="@string/adapter_view_open_sales_detail_item_desc"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <ImageButton
+            android:id="@+id/item_popup_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:contentDescription="@string/adapter_view_open_sales_detail_list_popup_menu_button"
+            android:paddingBottom="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingEnd="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingStart="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingTop="@dimen/adapter_view_open_sales_detail_list_8"
+            android:src="@mipmap/ic_action_navigation_more_vert" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_quantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingEnd="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingStart="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingTop="@dimen/adapter_view_open_sales_detail_list_4"
+            android:text="@string/adapter_view_open_sales_detail_list_quantity"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingEnd="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingStart="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingTop="@dimen/adapter_view_open_sales_detail_list_4"
+            android:text="@string/adapter_view_open_sales_detail_list_price"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/item_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingEnd="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingStart="@dimen/adapter_view_open_sales_detail_list_8"
+            android:paddingTop="@dimen/adapter_view_open_sales_detail_list_4"
+            android:text="@string/adapter_view_open_sales_detail_list_amount"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

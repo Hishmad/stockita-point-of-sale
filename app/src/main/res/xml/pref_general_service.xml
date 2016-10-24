@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:inputType="numberDecimal"
+        android:key="pref_service"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Type the service charge in (%) if any, that will apply to all sales invoice on checkout"
+        android:title="Service charge" />
+
+
+</PreferenceScreen>

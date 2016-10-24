@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * MIT License
+ *
+ * Copyright (c) 2016 Hishmad Abubakar Al-Amudi
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_300"
+    android:orientation="vertical">
+
+    <!-- Customer of Name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/adapter_view_payment_8"
+        android:layout_marginEnd="@dimen/adapter_view_payment_16"
+        android:layout_marginStart="@dimen/adapter_view_payment_16"
+        android:layout_marginTop="@dimen/adapter_view_payment_16"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/adapter_view_payment_4"
+            android:paddingStart="@dimen/adapter_view_payment_4"
+            android:text="@string/adapter_view_payment_customer_name"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:contentDescription="@string/adapter_view_payment_customer_name"
+            android:id="@+id/payment_customer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/adapter_view_payment_16"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+    </LinearLayout>
+
+
+    <!-- Total invoice amount -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/adapter_view_payment_8"
+        android:layout_marginEnd="@dimen/adapter_view_payment_16"
+        android:layout_marginStart="@dimen/adapter_view_payment_16"
+        android:layout_marginTop="@dimen/adapter_view_payment_8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/adapter_view_payment_4"
+            android:paddingStart="@dimen/adapter_view_payment_4"
+            android:text="@string/adapter_view_payment_total_invoice_amount"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:contentDescription="@string/adapter_view_payment_total_invoice_amount"
+            android:id="@+id/payment_total_invoice_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/adapter_view_payment_16"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+    </LinearLayout>
+
+
+    <!-- Cash Paid -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/adapter_view_payment_8"
+        android:layout_marginEnd="@dimen/adapter_view_payment_16"
+        android:layout_marginStart="@dimen/adapter_view_payment_16"
+        android:layout_marginTop="@dimen/adapter_view_payment_8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/adapter_view_payment_4"
+            android:paddingStart="@dimen/adapter_view_payment_4"
+            android:text="@string/adapter_view_payment_cash_paid"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:contentDescription="@string/adapter_view_payment_cash_paid"
+            android:id="@+id/payment_cash_paid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/adapter_view_payment_16"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <!-- Change cash -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/adapter_view_payment_8"
+        android:layout_marginEnd="@dimen/adapter_view_payment_16"
+        android:layout_marginStart="@dimen/adapter_view_payment_16"
+        android:layout_marginTop="@dimen/adapter_view_payment_8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/adapter_view_payment_4"
+            android:paddingStart="@dimen/adapter_view_payment_4"
+            android:text="@string/adapter_view_payment_change_cash"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:contentDescription="@string/adapter_view_payment_change_cash"
+            android:id="@+id/payment_change_cash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/adapter_view_payment_16"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <!-- Credit card Number -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/adapter_view_payment_8"
+        android:layout_marginEnd="@dimen/adapter_view_payment_16"
+        android:layout_marginStart="@dimen/adapter_view_payment_16"
+        android:layout_marginTop="@dimen/adapter_view_payment_8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/adapter_view_payment_4"
+            android:paddingStart="@dimen/adapter_view_payment_4"
+            android:text="@string/adapter_view_payment_credit_card_number"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:contentDescription="@string/adapter_view_payment_credit_card_number"
+            android:id="@+id/payment_credit_card_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/adapter_view_payment_16"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <!-- Server date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/adapter_view_payment_8"
+        android:layout_marginEnd="@dimen/adapter_view_payment_16"
+        android:layout_marginStart="@dimen/adapter_view_payment_16"
+        android:layout_marginTop="@dimen/adapter_view_payment_8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/adapter_view_payment_4"
+            android:paddingStart="@dimen/adapter_view_payment_4"
+            android:text="@string/adapter_view_payment_date_and_time"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:contentDescription="@string/adapter_view_payment_payment_server_date_and_time"
+            android:id="@+id/payment_server_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/adapter_view_payment_16"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+    </LinearLayout>
+
+</LinearLayout>

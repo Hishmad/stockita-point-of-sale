@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * MIT License
+ *
+ * Copyright (c) 2016 Hishmad Abubakar Al-Amudi
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+ -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <!-- Display the title -->
+        <TextView
+            android:id="@+id/screen_title_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_32"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_32"
+            android:layout_marginTop="@dimen/dialog_fragment_sales_checkout_32"
+            android:gravity="center"
+            android:text="@string/dialog_fragment_sales_checkout_title"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/black" />
+
+        <!-- Customer of items -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_8"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginTop="@dimen/dialog_fragment_sales_checkout_8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/dialog_fragment_sales_checkout_4"
+                android:paddingStart="@dimen/dialog_fragment_sales_checkout_4"
+                android:text="@string/dialog_fragment_sales_checkout_customer_name" />
+
+            <EditText
+                android:id="@+id/checkbox_customer_name_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription="@string/dialog_fragment_sales_checkout_customer_name"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords"
+                android:padding="@dimen/dialog_fragment_sales_checkout_16"
+                android:text="@string/dialog_fragment_sales_checkout_cash"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+
+        <!-- Number of items -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_8"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginTop="@dimen/dialog_fragment_sales_checkout_8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/dialog_fragment_sales_checkout_4"
+                android:paddingStart="@dimen/dialog_fragment_sales_checkout_4"
+                android:text="@string/dialog_fragment_sales_checkout_number_of_items" />
+
+            <TextView
+                android:id="@+id/checkbox_number_of_items_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription="@string/dialog_fragment_sales_checkout_number_of_items"
+                android:padding="@dimen/dialog_fragment_sales_checkout_16"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_8"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginTop="@dimen/dialog_fragment_sales_checkout_8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/dialog_fragment_sales_checkout_4"
+                android:paddingStart="@dimen/dialog_fragment_sales_checkout_4"
+                android:text="@string/dialog_fragment_sales_checkout_total_amount" />
+
+            <TextView
+                android:id="@+id/checkbox_total_amount_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription="@string/dialog_fragment_sales_checkout_total_amount"
+                android:padding="@dimen/dialog_fragment_sales_checkout_16"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_8"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginTop="@dimen/dialog_fragment_sales_checkout_8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/dialog_fragment_sales_checkout_4"
+                android:paddingStart="@dimen/dialog_fragment_sales_checkout_4"
+                android:text="@string/dialog_fragment_sales_checkout_discount_amount" />
+
+            <TextView
+                android:id="@+id/checkout_discount_value_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription=""
+                android:padding="@dimen/dialog_fragment_sales_checkout_16"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <!-- Service charge -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_8"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginTop="@dimen/dialog_fragment_sales_checkout_8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/dialog_fragment_sales_checkout_4"
+                android:paddingStart="@dimen/dialog_fragment_sales_checkout_4"
+                android:text="@string/dialog_fragment_sales_checkout_service_charge_amount" />
+
+            <TextView
+                android:id="@+id/checkbox_service_charge_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription="@string/dialog_fragment_sales_checkout_service_charge_amount"
+                android:padding="@dimen/dialog_fragment_sales_checkout_16"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_8"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginTop="@dimen/dialog_fragment_sales_checkout_8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/dialog_fragment_sales_checkout_4"
+                android:paddingStart="@dimen/dialog_fragment_sales_checkout_4"
+                android:text="@string/dialog_fragment_sales_checkout_tax_amount" />
+
+            <TextView
+                android:id="@+id/checkbox_tax_value_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription="@string/dialog_fragment_sales_checkout_tax_amount"
+                android:padding="@dimen/dialog_fragment_sales_checkout_16"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_8"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginTop="@dimen/dialog_fragment_sales_checkout_8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/dialog_fragment_sales_checkout_4"
+                android:paddingStart="@dimen/dialog_fragment_sales_checkout_4"
+                android:text="@string/dialog_fragment_sales_checkout_total_invoice_amount" />
+
+            <TextView
+                android:id="@+id/checkout_grand_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription="@string/dialog_fragment_sales_checkout_total_invoice_amount"
+                android:padding="@dimen/dialog_fragment_sales_checkout_16"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <!-- cash -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_8"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginTop="@dimen/dialog_fragment_sales_checkout_8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/dialog_fragment_sales_checkout_4"
+                android:paddingStart="@dimen/dialog_fragment_sales_checkout_4"
+                android:text="@string/dialog_fragment_sales_checkout_cash" />
+
+            <EditText
+                android:id="@+id/checkout_cash_received"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription="@string/dialog_fragment_sales_checkout_cash"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:padding="@dimen/dialog_fragment_sales_checkout_16"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+
+        <!-- Change -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_8"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginTop="@dimen/dialog_fragment_sales_checkout_8"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/dialog_fragment_sales_checkout_4"
+                android:paddingStart="@dimen/dialog_fragment_sales_checkout_4"
+                android:text="@string/dialog_fragment_sales_checkout_change" />
+
+            <TextView
+                android:id="@+id/checkout_change"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription="@string/dialog_fragment_sales_checkout_change"
+                android:padding="@dimen/dialog_fragment_sales_checkout_16"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+
+        <!-- Pay button here -->
+        <TextView
+            android:id="@+id/pay_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginTop="@dimen/dialog_fragment_sales_checkout_16"
+            android:background="@drawable/ripple_accent_white"
+            android:contentDescription="@string/dialog_fragment_sales_checkout_pay"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:padding="@dimen/dialog_fragment_sales_checkout_16"
+            android:text="@string/dialog_fragment_sales_checkout_pay"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/black" />
+
+        <!-- OpenBill button here -->
+        <TextView
+            android:id="@+id/open_bill_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:background="@drawable/ripple_accent_white"
+            android:contentDescription="@string/dialog_fragment_sales_checkout_open_bill"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:padding="@dimen/dialog_fragment_sales_checkout_16"
+            android:text="@string/dialog_fragment_sales_checkout_open_bill"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/black" />
+
+        <!-- Cancel button here -->
+        <TextView
+            android:id="@+id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_fragment_sales_checkout_32"
+            android:layout_marginEnd="@dimen/dialog_fragment_sales_checkout_16"
+            android:layout_marginStart="@dimen/dialog_fragment_sales_checkout_16"
+            android:background="@drawable/ripple_red_white"
+            android:contentDescription="@string/dialog_fragment_sales_checkout_cancel"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:padding="@dimen/dialog_fragment_sales_checkout_16"
+            android:text="@string/dialog_fragment_sales_checkout_cancel"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</ScrollView>
